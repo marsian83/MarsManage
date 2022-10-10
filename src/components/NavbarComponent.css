@@ -1,0 +1,23 @@
+.logo {
+    height : 10vh;
+    padding: 0vh 1ch 0 0;
+    margin:0 ;
+    transition: 300ms ease-out;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.navbar-branding{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-branding p{
+    margin: 0;
+    font-size: 2rem;
+}
