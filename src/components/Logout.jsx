@@ -3,8 +3,8 @@ import { useAuth } from "../contexts/AuthContext";
 
 export default function Logout() {
   const { logout } = useAuth();
-  useEffect(() => {
-    logout();
+  useEffect(async () => {
+    await logout();
     window.location = "/"
   });
   return <>{}</>;

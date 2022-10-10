@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
-import AuthProvider, { useAuth } from "../contexts/AuthContext";
-import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-dom";
+import AuthProvider from "../contexts/AuthContext";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import "../styles/universal.css";
 import Auth from "./Auth";

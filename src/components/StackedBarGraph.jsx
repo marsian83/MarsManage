@@ -23,7 +23,7 @@ class StackedBarGraph extends Component {
     }
 
     function getPastDay(date = new Date(), count) {
-      if (count == 1) {
+      if (count === 1) {
         return getPreviousDay(date);
       }
       return getPastDay(getPreviousDay(date), count - 1);

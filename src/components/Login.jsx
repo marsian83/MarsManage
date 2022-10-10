@@ -8,7 +8,7 @@ import { auth, db } from "../firebase";
 export const Login = (props) => {
   const emailRef = useRef();
   const passwordRef = useRef();
-  const { login, logout, currentUser } = useAuth();
+  const { login, logout } = useAuth();
   const [error, setError] = useState();
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
