@@ -5,7 +5,9 @@ export default function Logout() {
   const { logout } = useAuth();
   useEffect(async () => {
     await logout();
-    window.location = "/"
+    setTimeout(() => {
+      window.location = "/";
+    }, 5000);
   });
   return <>{}</>;
 }
