@@ -7,7 +7,7 @@ export default function Logout() {
     await logout();
     setTimeout(() => {
       window.location = "/";
-    }, 5000);
+    }, 3000);
   });
   return <>{}</>;
 }

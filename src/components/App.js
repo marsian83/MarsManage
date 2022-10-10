@@ -23,11 +23,11 @@ function App() {
         <Router basename="/">
           <AuthProvider>
             <Routes>
+              <Route path="/auth" element={<Auth />} />
+              <Route path="/logout" element={<Logout />}/>
               <Route exact path="/" element={<PrivateRoute />}>
                 <Route path="/" element={<Dashboard />} />
               </Route>
-              <Route path="/auth" element={<Auth />} />
-              <Route path="/logout" element={<Logout />}/>
             </Routes>
           </AuthProvider>
         </Router>
