@@ -76,7 +76,7 @@ export const Login = (props) => {
           </Card.Body>
         </Card>
         <div className="w-100 text-center mt-2">
-          Loking to register as an Employer? <Link onClick={() => { props.changeState('signup') }}>Click here</Link>
+          Looking to register as an Employer? <Link onClick={() => { props.changeState('signup') }}>Click here</Link>
         </div>
       </div>
     </>
